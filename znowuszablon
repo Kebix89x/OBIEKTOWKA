@@ -1,0 +1,21 @@
+#include <iostream>
+
+using namespace std;
+template <class T,typename R,class S>
+T sum (T a,R b,S c )
+{
+
+ return a+b+c;
+
+
+
+ }
+
+int main()
+{
+
+    cout<<sum<char>('h','b','a')<<endl;
+     /*cout<<sum<bool>(true,false)<<endl;
+    cout<<sum<char>('a','b')<<endl;
+     cout<<sum<string>("Ala","Kot")<<endl;*/
+}
